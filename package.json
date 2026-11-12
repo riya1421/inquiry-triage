@@ -1,0 +1,16 @@
+{
+  "name": "inquiry-triage",
+  "version": "1.0.0",
+  "description": "Webhook automation: classify inbound inquiries with Claude, alert Slack, log to Notion.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "samples": "node send-samples.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "latest",
+    "express": "^4.21.0"
+  },
+  "license": "MIT"
+}
